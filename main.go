@@ -2,15 +2,21 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io"
 	"log"
 	"net/http"
 )
 
+type StatusResponse struct {
+	Page      Page       `json:"page"`
+	Incidents []Incident `json:"incidents"`
+}
+
 type Page struct {
 	Name      string     `json:"name"`
 	Url       string     `json:"url"`
-	Timezone  string     `json:"timezone"`
+	Timezone  string     `json:"time_zone"`
 	Incidents []Incident `json:"incidents"`
 }
 
@@ -19,13 +25,13 @@ type Incident struct {
 	Name            string           `json:"name"`
 	CreatedAt       string           `json:"created_at"`
 	ResolvedAt      string           `json:"resolved_at"`
-	IncidentUpdates []IncidentUpdate `json:"incident_updates"`
 	Impact          string           `json:"impact"`
 	Shortlink       string           `json:"shortlink"`
+	IncidentUpdates []IncidentUpdate `json:"incident_updates"`
 }
 
 type IncidentUpdate struct {
-	Id                 string              `json:"id"`
+	Id                 string              `json:"incident_id"`
 	Status             string              `json:"status"`
 	AffectedComponents []AffectedComponent `json:"affected_components"`
 }
@@ -47,13 +53,15 @@ func main() {
 	}
 
 	// fmt.Println(string(body))
-	var r Page
+	var r StatusResponse
 	err = json.Unmarshal(body, &r)
 	if err != nil {
 		log.Fatal(err)
 	}
 	for _, incident := range r.Incidents {
-		log.Printf("incident_id: %s,\n name: %s,\n created_at: %s,\n resolved_at: %s,\n status: %s,\n impact: %s,\n shortlink: %s,\n component_id: %s,\n component_name: %s\n\n\n", incident.Id, incident.Name, incident.CreatedAt, incident.ResolvedAt, incident.IncidentUpdates[0].Status, incident.Impact, incident.Shortlink, incident.IncidentUpdates[0].AffectedComponents[0].Code, incident.IncidentUpdates[0].AffectedComponents[0].Name)
+		if incident.Impact == "critical" || incident.Impact == "major" {
+			fmt.Printf("name:\t%s\nurl:\t%s\ntimezone:\t%s\nincident_id:\t%s\nnincident_name:\t%s\nincident_created_at:\t%s\nincident_resolved_at:\t%s\nstatus:\t%s\nimpact:\t%s\nshortlink:\t%s\ncomponent_id:\t%s\ncomponent_name:\t%s\n\n\n", r.Page.Name, r.Page.Url, r.Page.Timezone, incident.Id, incident.Name, incident.CreatedAt, incident.ResolvedAt, incident.IncidentUpdates[0].Status, incident.Impact, incident.Shortlink, incident.IncidentUpdates[0].AffectedComponents[0].Code, incident.IncidentUpdates[0].AffectedComponents[0].Name)
+		}
 	}
 }
 
@@ -114,3 +122,16 @@ func main() {
 	  ]
 	},
 */
+
+// name:   Cielo Status Page
+// url:    https://status.cielo.com.br
+// timezone:       America/Sao_Paulo
+// incident_id:    8l7k6ghr6b75
+// nincident_name: Indisponibilidade nos pagamentos PIX QrCode
+// incident_created_at:    2026-08-23T07:06:51.423-03:00
+// incident_resolved_at:   2026-08-23T09:13:46.317-03:00
+// status: resolved
+// impact: critical
+// shortlink:      https://stspg.io/0lwmp3rn9qjc
+// component_id:   n0n3lzdwjsdj
+// component_name: Transacional - Pix
