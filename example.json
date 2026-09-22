@@ -1,0 +1,5034 @@
+{
+  "page": {
+    "id": "mrnkr4vjrl2d",
+    "name": "Cielo Status Page",
+    "url": "https://status.cielo.com.br",
+    "time_zone": "America/Sao_Paulo",
+    "updated_at": "2026-09-21T18:09:33.128-03:00"
+  },
+  "incidents": [
+    {
+      "id": "00p0mjjk8s2r",
+      "name": "Atraso na efetivação dos pagamentos Crédito Banco do Brasil (SLC)",
+      "status": "resolved",
+      "created_at": "2026-09-21T14:35:55.000-03:00",
+      "updated_at": "2026-09-21T15:51:51.274-03:00",
+      "monitoring_at": "2026-09-21T14:37:55.000-03:00",
+      "resolved_at": "2026-09-21T15:51:51.259-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/6791zppp89f6",
+      "started_at": "2026-09-21T14:35:55.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "ys1nn0zwqjft",
+          "status": "resolved",
+          "body": "Ambiente normalizado, Pagamento efetivado 14h50",
+          "incident_id": "00p0mjjk8s2r",
+          "created_at": "2026-09-21T15:51:51.259-03:00",
+          "updated_at": "2026-09-21T15:51:51.259-03:00",
+          "display_at": "2026-09-21T15:51:51.259-03:00",
+          "affected_components": [
+            {
+              "code": "7hwzqm33v5fn",
+              "name": "Produtos de Prazo - ARV",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "kl9phttjs9v9",
+          "status": "monitoring",
+          "body": "Banco do Brasil confirmou problema interno nos processamentos das transações.\nPrevisão de pagamento até 15h.",
+          "incident_id": "00p0mjjk8s2r",
+          "created_at": "2026-09-21T14:37:55.224-03:00",
+          "updated_at": "2026-09-21T14:46:15.691-03:00",
+          "display_at": "2026-09-21T14:37:55.000-03:00",
+          "affected_components": [
+            {
+              "code": "7hwzqm33v5fn",
+              "name": "Produtos de Prazo - ARV",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "4nh7qj17pcq0",
+          "status": "investigating",
+          "body": "Atraso na efetivação dos pagamentos Créditos para o domicilio Bancário Banco do Brasil, referente os movimentos do dia 18/09/2026\n\nEm analise pelo emissor",
+          "incident_id": "00p0mjjk8s2r",
+          "created_at": "2026-09-21T14:35:55.322-03:00",
+          "updated_at": "2026-09-21T14:45:57.819-03:00",
+          "display_at": "2026-09-21T14:35:55.000-03:00",
+          "affected_components": [
+            {
+              "code": "7hwzqm33v5fn",
+              "name": "Produtos de Prazo - ARV",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7hwzqm33v5fn",
+          "name": "ARV",
+          "status": "operational",
+          "created_at": "2025-02-17T16:16:13.149-03:00",
+          "updated_at": "2026-09-21T15:51:51.232-03:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "t0jb5x4hqnh6",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+
+    
+    {
+      "id": "5xmhqmysnyr9",
+      "name": "Atraso no processamento do primeiro corte \"Vendeu tá na conta\" (D0/D1)",
+      "status": "resolved",
+      "created_at": "2026-09-20T19:26:40.410-03:00",
+      "updated_at": "2026-09-21T01:09:55.594-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-20T23:33:37.000-03:00",
+      "impact": "major",
+      "shortlink": "https://stspg.io/014sj0m9t1lz",
+      "started_at": "2026-09-20T19:26:40.403-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "7mkrhs18qwvk",
+          "status": "resolved",
+          "body": "Ambiente normalizado após ações dos times às 23h33.",
+          "incident_id": "5xmhqmysnyr9",
+          "created_at": "2026-09-21T01:09:37.782-03:00",
+          "updated_at": "2026-09-21T01:09:55.580-03:00",
+          "display_at": "2026-09-20T23:33:37.000-03:00",
+          "affected_components": [
+            {
+              "code": "7gmj4lj61v1p",
+              "name": "Produtos de Prazo - RRD0",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "rwkx1m0bnq1f",
+              "name": "Produtos de Prazo - RRD1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "2hyv4wqhylfw",
+          "status": "identified",
+          "body": "Os times seguem trabalhando na correção e priorização do término de processamento.",
+          "incident_id": "5xmhqmysnyr9",
+          "created_at": "2026-09-20T23:07:44.213-03:00",
+          "updated_at": "2026-09-20T23:07:44.213-03:00",
+          "display_at": "2026-09-20T23:07:44.213-03:00",
+          "affected_components": [
+            {
+              "code": "7gmj4lj61v1p",
+              "name": "Produtos de Prazo - RRD0",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "rwkx1m0bnq1f",
+              "name": "Produtos de Prazo - RRD1",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gj1lx7vldhjq",
+          "status": "identified",
+          "body": "Times seguem atuando para priorizar o termino do processamento previsão de término as 22h30 .",
+          "incident_id": "5xmhqmysnyr9",
+          "created_at": "2026-09-20T21:53:35.649-03:00",
+          "updated_at": "2026-09-20T21:53:35.649-03:00",
+          "display_at": "2026-09-20T21:53:35.649-03:00",
+          "affected_components": [
+            {
+              "code": "7gmj4lj61v1p",
+              "name": "Produtos de Prazo - RRD0",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "rwkx1m0bnq1f",
+              "name": "Produtos de Prazo - RRD1",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8l6pfgp05rzx",
+          "status": "identified",
+          "body": "Times seguem atuando para priorizar o processamento.",
+          "incident_id": "5xmhqmysnyr9",
+          "created_at": "2026-09-20T20:13:40.809-03:00",
+          "updated_at": "2026-09-20T20:13:40.809-03:00",
+          "display_at": "2026-09-20T20:13:40.809-03:00",
+          "affected_components": [
+            {
+              "code": "7gmj4lj61v1p",
+              "name": "Produtos de Prazo - RRD0",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "rwkx1m0bnq1f",
+              "name": "Produtos de Prazo - RRD1",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "2v3v9t59p8l7",
+          "status": "identified",
+          "body": "We are continuing to work on a fix for this issue.",
+          "incident_id": "5xmhqmysnyr9",
+          "created_at": "2026-09-20T19:31:53.288-03:00",
+          "updated_at": "2026-09-20T19:31:53.288-03:00",
+          "display_at": "2026-09-20T19:31:53.288-03:00",
+          "affected_components": [
+            {
+              "code": "7gmj4lj61v1p",
+              "name": "Produtos de Prazo - RRD0",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "rwkx1m0bnq1f",
+              "name": "Produtos de Prazo - RRD1",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "6vj8gz13t8fy",
+          "status": "identified",
+          "body": "dentificamos um atraso no segundo corte dos pagamentos D0.\n\nOs pagamentos serão processados com um atraso . Times seguem atuando para priorizar o processamento e estão acompanhando a execução até sua conclusão.",
+          "incident_id": "5xmhqmysnyr9",
+          "created_at": "2026-09-20T19:26:40.452-03:00",
+          "updated_at": "2026-09-20T19:26:40.452-03:00",
+          "display_at": "2026-09-20T19:26:40.452-03:00",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7gmj4lj61v1p",
+          "name": "RRD0",
+          "status": "operational",
+          "created_at": "2025-02-17T16:16:34.517-03:00",
+          "updated_at": "2026-09-21T01:09:37.736-03:00",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "t0jb5x4hqnh6",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "rwkx1m0bnq1f",
+          "name": "RRD1",
+          "status": "operational",
+          "created_at": "2025-02-17T16:17:00.461-03:00",
+          "updated_at": "2026-09-21T01:09:37.752-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "t0jb5x4hqnh6",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "zv1mn0whbszn",
+      "name": "Indisponibilidade parcial nas transações do Banco Bradesco.",
+      "status": "resolved",
+      "created_at": "2026-09-20T12:55:11.557-03:00",
+      "updated_at": "2026-09-20T14:40:12.148-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-20T14:40:12.130-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/bkstmsgc0cw8",
+      "started_at": "2026-09-20T12:55:11.546-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "mjgsd4khrbz6",
+          "status": "resolved",
+          "body": "Ambiente normalizado as 14h01",
+          "incident_id": "zv1mn0whbszn",
+          "created_at": "2026-09-20T14:40:12.130-03:00",
+          "updated_at": "2026-09-20T14:40:12.130-03:00",
+          "display_at": "2026-09-20T14:40:12.130-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7fsrspv23j4x",
+          "status": "investigating",
+          "body": "Time Bradesco está avaliando o cenário.\nEstamos acompanhando as atualizações.",
+          "incident_id": "zv1mn0whbszn",
+          "created_at": "2026-09-20T13:59:09.640-03:00",
+          "updated_at": "2026-09-20T13:59:09.640-03:00",
+          "display_at": "2026-09-20T13:59:09.640-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "515z6fvcfts1",
+          "status": "investigating",
+          "body": "Time Bradesco está avaliando o cenário.\nEstamos acompanhando as atualizações.",
+          "incident_id": "zv1mn0whbszn",
+          "created_at": "2026-09-20T12:55:11.650-03:00",
+          "updated_at": "2026-09-20T12:55:11.650-03:00",
+          "display_at": "2026-09-20T12:55:11.650-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "cyfxjqxh3v8h",
+      "name": "Aumento de erros na geração de QR Code PIX Bancos Banco do Brasil",
+      "status": "resolved",
+      "created_at": "2026-09-19T07:52:48.368-03:00",
+      "updated_at": "2026-09-19T12:55:31.390-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-19T12:55:31.372-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/x3s79jfgrwh4",
+      "started_at": "2026-09-19T07:52:48.353-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "dzk56hvxj2c9",
+          "status": "resolved",
+          "body": "Ambiente normalizado",
+          "incident_id": "cyfxjqxh3v8h",
+          "created_at": "2026-09-19T12:55:31.372-03:00",
+          "updated_at": "2026-09-19T12:55:31.372-03:00",
+          "display_at": "2026-09-19T12:55:31.372-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "2z2lfzbcl7t8",
+          "status": "investigating",
+          "body": "Times técnicos do parceiro segue em análise para resolução.",
+          "incident_id": "cyfxjqxh3v8h",
+          "created_at": "2026-09-19T12:00:57.738-03:00",
+          "updated_at": "2026-09-19T12:00:57.738-03:00",
+          "display_at": "2026-09-19T12:00:57.738-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "99nkl400vzsc",
+          "status": "investigating",
+          "body": "Identificado um aumento de erros na geração de PIX Qrcode para o banco do Brasil.",
+          "incident_id": "cyfxjqxh3v8h",
+          "created_at": "2026-09-19T07:52:48.480-03:00",
+          "updated_at": "2026-09-19T07:52:48.480-03:00",
+          "display_at": "2026-09-19T07:52:48.480-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "9bq349mqb1q5",
+      "name": "Mercado Pago Visa Crédito parcialmente indisponível",
+      "status": "resolved",
+      "created_at": "2026-09-18T17:31:54.000-03:00",
+      "updated_at": "2026-09-18T18:03:25.815-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-18T17:31:54.000-03:00",
+      "impact": "none",
+      "shortlink": "https://stspg.io/8lzg75t1350s",
+      "started_at": "2026-09-18T17:31:54.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "l8f1mhljtr79",
+          "status": "resolved",
+          "body": "Identificado o aumento de transações com timeout para o emissor Mercado Pago, emissor foi notificado e segue em análise, ambiente está normalizado no momento",
+          "incident_id": "9bq349mqb1q5",
+          "created_at": "2026-09-18T18:02:54.200-03:00",
+          "updated_at": "2026-09-18T18:03:25.745-03:00",
+          "display_at": "2026-09-18T17:31:54.000-03:00",
+          "affected_components": [
+            {
+              "code": "3zj9v894hf9y",
+              "name": "Transacional - Autorizador Digital",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "3zj9v894hf9y",
+          "name": "Autorizador Digital",
+          "status": "operational",
+          "created_at": "2025-02-17T16:01:11.574-03:00",
+          "updated_at": "2026-09-15T15:30:57.001-03:00",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2024-10-31",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "gqbs6fpb4fql",
+      "name": "Instabilidade no Salesforce",
+      "status": "resolved",
+      "created_at": "2026-09-16T06:27:31.000-03:00",
+      "updated_at": "2026-09-16T10:36:36.752-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-16T10:36:36.734-03:00",
+      "impact": "major",
+      "shortlink": "https://stspg.io/1scqd5tqhk41",
+      "started_at": "2026-09-16T06:27:31.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "5zk2wcb7m8kc",
+          "status": "resolved",
+          "body": "Incidente foi normalizado no ambiente da Salesforce.",
+          "incident_id": "gqbs6fpb4fql",
+          "created_at": "2026-09-16T10:36:36.734-03:00",
+          "updated_at": "2026-09-16T10:36:36.734-03:00",
+          "display_at": "2026-09-16T10:36:36.734-03:00",
+          "affected_components": [
+            {
+              "code": "q37g04jx1r8d",
+              "name": "Canais de Relacionamento - Salesforce Atendimento",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "9y3fvxr8s4r8",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "gqbs6fpb4fql",
+          "created_at": "2026-09-16T09:15:41.627-03:00",
+          "updated_at": "2026-09-16T09:15:41.627-03:00",
+          "display_at": "2026-09-16T09:15:41.627-03:00",
+          "affected_components": [
+            {
+              "code": "q37g04jx1r8d",
+              "name": "Canais de Relacionamento - Salesforce Atendimento",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7sf839jl2snj",
+          "status": "investigating",
+          "body": "Identificamos uma degradação no ambiente Salesforce, resultando em lentidão, intermitência e indisponibilidade pontual de algumas funcionalidades afetando o tempo de espera de nossos canais de atendimento ao cliente.",
+          "incident_id": "gqbs6fpb4fql",
+          "created_at": "2026-09-16T07:16:31.154-03:00",
+          "updated_at": "2026-09-16T09:16:17.300-03:00",
+          "display_at": "2026-09-16T06:27:31.000-03:00",
+          "affected_components": [
+            {
+              "code": "q37g04jx1r8d",
+              "name": "Canais de Relacionamento - Salesforce Atendimento",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "q37g04jx1r8d",
+          "name": "Salesforce Atendimento",
+          "status": "operational",
+          "created_at": "2025-02-17T16:14:36.292-03:00",
+          "updated_at": "2026-09-16T10:36:36.700-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "pd9kfg2l1657",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "rzyq7pb9hxcg",
+      "name": "Indisponibilidade pontual para o emissor Rede Compras",
+      "status": "resolved",
+      "created_at": "2026-09-15T16:08:18.000-03:00",
+      "updated_at": "2026-09-15T17:34:17.423-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-15T17:34:17.409-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/030y3tmd5l4c",
+      "started_at": "2026-09-15T16:08:18.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "l31zg8m0n8vm",
+          "status": "resolved",
+          "body": "Ticket: INC-44158\nImpacto: Identificamos um aumento de transações com timeout e  negadas para o emissor Rede Compras para os produtos Voucher, Débito e crédito. \nInício/Término do Impacto: 15/09/2026 das 16h08 às 17h14.\nCausa: Não informado pelo emissor.\nSolução: Normalizado após ações técnicas do Emissor.",
+          "incident_id": "rzyq7pb9hxcg",
+          "created_at": "2026-09-15T17:34:17.409-03:00",
+          "updated_at": "2026-09-15T17:34:17.409-03:00",
+          "display_at": "2026-09-15T17:34:17.409-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "26vskqbhsrrk",
+          "status": "investigating",
+          "body": "Título: Indisponibilidade pontual para o emissor Rede Compras\nTicket: INC-44158\nImpacto: Identificamos um aumento de transações com timeout e  negadas para o emissor Rede Compras para os produtos Voucher, Débito e crédito. \nInício: 15/09/2026 16h08\nCausa: Em analise pelo parceiro",
+          "incident_id": "rzyq7pb9hxcg",
+          "created_at": "2026-09-15T16:20:18.523-03:00",
+          "updated_at": "2026-09-15T16:20:32.032-03:00",
+          "display_at": "2026-09-15T16:08:18.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "0500fn1gbpm5",
+      "name": "Indisponibilidade na geração e pagamento QR Code (Pix Cielo e Pix Bancos)",
+      "status": "resolved",
+      "created_at": "2026-09-15T12:28:23.000-03:00",
+      "updated_at": "2026-09-15T16:04:08.264-03:00",
+      "monitoring_at": "2026-09-15T14:52:35.000-03:00",
+      "resolved_at": "2026-09-15T16:04:08.249-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/bn8gwl7nsfvm",
+      "started_at": "2026-09-15T12:28:23.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "q6kfj9dffgz5",
+          "status": "resolved",
+          "body": "Ambiente normalizado após ações dos times às 14h43.",
+          "incident_id": "0500fn1gbpm5",
+          "created_at": "2026-09-15T16:04:08.249-03:00",
+          "updated_at": "2026-09-15T16:04:08.249-03:00",
+          "display_at": "2026-09-15T16:04:08.249-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "dy5l1s3b5tjk",
+          "status": "monitoring",
+          "body": "Já é percebida a gradual normalização a partir das 14h42. Ações de remediação ainda seguem em andamento.",
+          "incident_id": "0500fn1gbpm5",
+          "created_at": "2026-09-15T14:52:35.966-03:00",
+          "updated_at": "2026-09-15T16:03:27.677-03:00",
+          "display_at": "2026-09-15T14:52:35.000-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "mdz2p94kngq7",
+          "status": "identified",
+          "body": "Causa identificada. Ação de remediação em andamento.",
+          "incident_id": "0500fn1gbpm5",
+          "created_at": "2026-09-15T14:00:43.463-03:00",
+          "updated_at": "2026-09-15T14:00:43.463-03:00",
+          "display_at": "2026-09-15T14:00:43.463-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "qxynfhtmrntj",
+          "status": "investigating",
+          "body": "Seguimos em sala com os times técnicos atuando na análise e mitigação do incidente.\n\nAté o momento, foi identificado impacto também em outros serviços Pix, incluindo:\n\n  - Site Cielo (Área Pix)\n  - QR Code (Carteiras Digitais)",
+          "incident_id": "0500fn1gbpm5",
+          "created_at": "2026-09-15T13:28:15.732-03:00",
+          "updated_at": "2026-09-15T13:28:15.732-03:00",
+          "display_at": "2026-09-15T13:28:15.732-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "l86c6dh56vhh",
+          "status": "investigating",
+          "body": "Em análise pelos times técnicos.",
+          "incident_id": "0500fn1gbpm5",
+          "created_at": "2026-09-15T12:39:23.735-03:00",
+          "updated_at": "2026-09-15T12:42:42.315-03:00",
+          "display_at": "2026-09-15T12:28:23.000-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "482vggqzssy8",
+      "name": "Indisponibilidade nos pagamentos Checkout e Link de Pagamento",
+      "status": "resolved",
+      "created_at": "2026-09-15T15:03:51.968-03:00",
+      "updated_at": "2026-09-15T15:30:57.059-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-15T15:30:57.043-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/2fw871nlby17",
+      "started_at": "2026-09-15T15:03:51.953-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "8s3vm5lbw8zs",
+          "status": "resolved",
+          "body": "Ambiente normalizado após ações do parceiro.",
+          "incident_id": "482vggqzssy8",
+          "created_at": "2026-09-15T15:30:57.043-03:00",
+          "updated_at": "2026-09-15T15:30:57.043-03:00",
+          "display_at": "2026-09-15T15:30:57.043-03:00",
+          "affected_components": [
+            {
+              "code": "3zj9v894hf9y",
+              "name": "Transacional - Autorizador Digital",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "57j4rb6q6979",
+          "status": "identified",
+          "body": "==Atualização==\n\nNão identificamos nenhuma indisponibilidade vinda do ambiente Cielo\n\nEstamos em contato com o nosso parceiro, para apoiar na investigação",
+          "incident_id": "482vggqzssy8",
+          "created_at": "2026-09-15T15:13:54.376-03:00",
+          "updated_at": "2026-09-15T15:13:54.376-03:00",
+          "display_at": "2026-09-15T15:13:54.376-03:00",
+          "affected_components": [
+            {
+              "code": "3zj9v894hf9y",
+              "name": "Transacional - Autorizador Digital",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "2q5jyytjdyf1",
+          "status": "investigating",
+          "body": "Em analise pelos times técnicos.",
+          "incident_id": "482vggqzssy8",
+          "created_at": "2026-09-15T15:03:52.103-03:00",
+          "updated_at": "2026-09-15T15:03:52.103-03:00",
+          "display_at": "2026-09-15T15:03:52.103-03:00",
+          "affected_components": [
+            {
+              "code": "3zj9v894hf9y",
+              "name": "Transacional - Autorizador Digital",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "3zj9v894hf9y",
+          "name": "Autorizador Digital",
+          "status": "operational",
+          "created_at": "2025-02-17T16:01:11.574-03:00",
+          "updated_at": "2026-09-15T15:30:57.001-03:00",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2024-10-31",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "mh0f6fyn4xkh",
+          "name": "e-Commerce - PSP",
+          "status": "operational",
+          "created_at": "2023-09-13T14:51:40.696-03:00",
+          "updated_at": "2026-09-15T15:30:57.016-03:00",
+          "position": 7,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "3b1ympjd5c6k",
+      "name": "Indisponibilidade pontual para o emissor Votorantim para as transações no mundo físico - Bandeira Visa - Produto Débito",
+      "status": "resolved",
+      "created_at": "2026-09-15T05:22:05.000-03:00",
+      "updated_at": "2026-09-15T14:23:55.443-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-15T13:18:48.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/1xknkpsgsqmq",
+      "started_at": "2026-09-15T05:22:05.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "yw30fcjqvp7f",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "3b1ympjd5c6k",
+          "created_at": "2026-09-15T14:23:48.408-03:00",
+          "updated_at": "2026-09-15T14:23:55.431-03:00",
+          "display_at": "2026-09-15T13:18:48.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "406tgx9fmq7l",
+          "status": "investigating",
+          "body": "Segue em análise pelo emissor.",
+          "incident_id": "3b1ympjd5c6k",
+          "created_at": "2026-09-15T12:44:41.528-03:00",
+          "updated_at": "2026-09-15T12:44:41.528-03:00",
+          "display_at": "2026-09-15T12:44:41.528-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "5d4rjst9pzh7",
+          "status": "investigating",
+          "body": "Tratativa segue em análise pelo emissor.",
+          "incident_id": "3b1ympjd5c6k",
+          "created_at": "2026-09-15T09:40:26.575-03:00",
+          "updated_at": "2026-09-15T09:40:26.575-03:00",
+          "display_at": "2026-09-15T09:40:26.575-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "wmjqc6cmfrl2",
+          "status": "investigating",
+          "body": "Em análise pelo emissor.",
+          "incident_id": "3b1ympjd5c6k",
+          "created_at": "2026-09-15T08:39:05.611-03:00",
+          "updated_at": "2026-09-15T08:40:39.679-03:00",
+          "display_at": "2026-09-15T05:22:05.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "3kt7h3gj74bv",
+      "name": "Ocorrência de transações desfeitas e timeout no mundo físico.",
+      "status": "resolved",
+      "created_at": "2026-09-15T08:38:56.297-03:00",
+      "updated_at": "2026-09-15T08:40:36.724-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-15T08:40:36.707-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/9x44tkwjqy5w",
+      "started_at": "2026-09-15T08:38:56.288-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "jt92qxt1p0kr",
+          "status": "resolved",
+          "body": "Ambiente normalizado após ações às 06h48.",
+          "incident_id": "3kt7h3gj74bv",
+          "created_at": "2026-09-15T08:40:36.707-03:00",
+          "updated_at": "2026-09-15T08:40:36.707-03:00",
+          "display_at": "2026-09-15T08:40:36.707-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "k5gkzrjtvmpg",
+          "status": "identified",
+          "body": "Times técnicos em análise.",
+          "incident_id": "3kt7h3gj74bv",
+          "created_at": "2026-09-15T08:38:56.368-03:00",
+          "updated_at": "2026-09-15T08:38:56.368-03:00",
+          "display_at": "2026-09-15T08:38:56.368-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "l2t25jvgnc27",
+      "name": "Indisponibilidade pontual para o emissor Rede Compras",
+      "status": "resolved",
+      "created_at": "2026-09-12T09:27:07.000-03:00",
+      "updated_at": "2026-09-12T13:48:37.971-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-12T10:58:20.778-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/g6gjrd95c107",
+      "started_at": "2026-09-12T09:27:07.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "tlbr8vl3fqwy",
+          "status": "resolved",
+          "body": "Ambiente normalizado",
+          "incident_id": "l2t25jvgnc27",
+          "created_at": "2026-09-12T10:58:20.778-03:00",
+          "updated_at": "2026-09-12T10:58:20.778-03:00",
+          "display_at": "2026-09-12T10:58:20.778-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "g14rqx8fbt20",
+          "status": "investigating",
+          "body": "Estamos em investigação juntamente com o time da Rede Compras.",
+          "incident_id": "l2t25jvgnc27",
+          "created_at": "2026-09-12T10:40:07.353-03:00",
+          "updated_at": "2026-09-12T13:48:37.903-03:00",
+          "display_at": "2026-09-12T09:27:07.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "5d6yg5drrp07",
+      "name": "Indisponibilidade de pagamentos via QR Code Pix Bancos e Pix Cielo - Emissor Caixa Econômica",
+      "status": "resolved",
+      "created_at": "2026-09-11T16:17:39.891-03:00",
+      "updated_at": "2026-09-11T16:47:40.290-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-11T16:47:40.274-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/j6tnwn9qmz0c",
+      "started_at": "2026-09-11T16:17:39.882-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "09gy0966l1p4",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "5d6yg5drrp07",
+          "created_at": "2026-09-11T16:47:40.274-03:00",
+          "updated_at": "2026-09-11T16:47:40.274-03:00",
+          "display_at": "2026-09-11T16:47:40.274-03:00",
+          "affected_components": [
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8jq3ypxkqj6p",
+          "status": "identified",
+          "body": "Em analise pelo emissor",
+          "incident_id": "5d6yg5drrp07",
+          "created_at": "2026-09-11T16:17:39.975-03:00",
+          "updated_at": "2026-09-11T16:17:39.975-03:00",
+          "display_at": "2026-09-11T16:17:39.975-03:00",
+          "affected_components": [
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "bf71htfyrsgf",
+      "name": "Indisponibilidade no download de carta de cancelamento através do Site",
+      "status": "resolved",
+      "created_at": "2026-09-11T16:22:27.385-03:00",
+      "updated_at": "2026-09-11T16:39:44.881-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-11T16:39:44.866-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/y4v3qtxs9hqb",
+      "started_at": "2026-09-11T16:22:27.373-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "qfczd3gnjkfh",
+          "status": "resolved",
+          "body": "Serviço normalizado.",
+          "incident_id": "bf71htfyrsgf",
+          "created_at": "2026-09-11T16:39:44.866-03:00",
+          "updated_at": "2026-09-11T16:39:44.866-03:00",
+          "display_at": "2026-09-11T16:39:44.866-03:00",
+          "affected_components": [
+            {
+              "code": "yf8q0xzjfv41",
+              "name": "Canais de Relacionamento - Site Cielo",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "hkxvg7l6zmx9",
+          "status": "investigating",
+          "body": "Em investigação.",
+          "incident_id": "bf71htfyrsgf",
+          "created_at": "2026-09-11T16:22:27.454-03:00",
+          "updated_at": "2026-09-11T16:22:27.454-03:00",
+          "display_at": "2026-09-11T16:22:27.454-03:00",
+          "affected_components": [
+            {
+              "code": "yf8q0xzjfv41",
+              "name": "Canais de Relacionamento - Site Cielo",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "yf8q0xzjfv41",
+          "name": "Site Cielo",
+          "status": "operational",
+          "created_at": "2025-02-17T16:15:04.433-03:00",
+          "updated_at": "2026-09-11T16:39:44.841-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "pd9kfg2l1657",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "sc3cwf5bd1ng",
+      "name": "Indisponibilidade de Pagamentos de QR Code PIX Bancos (Bradesco)",
+      "status": "resolved",
+      "created_at": "2026-09-10T15:31:01.467-03:00",
+      "updated_at": "2026-09-10T17:26:20.261-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-10T17:26:20.245-03:00",
+      "impact": "major",
+      "shortlink": "https://stspg.io/zpjy4h3j44vg",
+      "started_at": "2026-09-10T15:31:01.459-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "mf9y5ht3m8p8",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "sc3cwf5bd1ng",
+          "created_at": "2026-09-10T17:26:20.245-03:00",
+          "updated_at": "2026-09-10T17:26:20.245-03:00",
+          "display_at": "2026-09-10T17:26:20.245-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "tw877vnbwtmf",
+          "status": "investigating",
+          "body": "Identificada uma indisponibiliadde no pagamento de QR Code para o PIX Bancos do parceiro Banco Bradesco\n\nConfirmado problema no ambiente do parceiro, seguimos acompanhando",
+          "incident_id": "sc3cwf5bd1ng",
+          "created_at": "2026-09-10T15:31:01.530-03:00",
+          "updated_at": "2026-09-10T15:31:01.530-03:00",
+          "display_at": "2026-09-10T15:31:01.530-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": "[]"
+    },
+    {
+      "id": "4994bjv8mxh7",
+      "name": "Intermitência na efetivação de cancelamento de transações",
+      "status": "resolved",
+      "created_at": "2026-09-09T10:42:02.914-03:00",
+      "updated_at": "2026-09-10T11:26:04.762-03:00",
+      "monitoring_at": "2026-09-09T12:20:15.498-03:00",
+      "resolved_at": "2026-09-10T11:26:04.748-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/yw0cn21l61wh",
+      "started_at": "2026-09-09T10:42:02.904-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "jyrzg8960zvn",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "4994bjv8mxh7",
+          "created_at": "2026-09-10T11:26:04.748-03:00",
+          "updated_at": "2026-09-10T11:26:04.748-03:00",
+          "display_at": "2026-09-10T11:26:04.748-03:00",
+          "affected_components": [
+            {
+              "code": "x5zhg1pgmzhw",
+              "name": "Transacional - Cancelamento",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7cq5mxz045h0",
+          "status": "monitoring",
+          "body": "Ambiente normalizado.",
+          "incident_id": "4994bjv8mxh7",
+          "created_at": "2026-09-10T11:23:20.138-03:00",
+          "updated_at": "2026-09-10T11:23:20.138-03:00",
+          "display_at": "2026-09-10T11:23:20.138-03:00",
+          "affected_components": [
+            {
+              "code": "x5zhg1pgmzhw",
+              "name": "Transacional - Cancelamento",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jhzngdx7gx9p",
+          "status": "monitoring",
+          "body": "Executada ação de contorno. Ambiente permanecerá em monitoramento até amanhã (10/09) às 11h00.",
+          "incident_id": "4994bjv8mxh7",
+          "created_at": "2026-09-09T12:20:15.498-03:00",
+          "updated_at": "2026-09-09T12:20:15.498-03:00",
+          "display_at": "2026-09-09T12:20:15.498-03:00",
+          "affected_components": [
+            {
+              "code": "x5zhg1pgmzhw",
+              "name": "Transacional - Cancelamento",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7xcgrmt6j0lh",
+          "status": "investigating",
+          "body": "Em investigação.",
+          "incident_id": "4994bjv8mxh7",
+          "created_at": "2026-09-09T10:42:02.993-03:00",
+          "updated_at": "2026-09-09T10:42:02.993-03:00",
+          "display_at": "2026-09-09T10:42:02.993-03:00",
+          "affected_components": [
+            {
+              "code": "x5zhg1pgmzhw",
+              "name": "Transacional - Cancelamento",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "x5zhg1pgmzhw",
+          "name": "Cancelamento",
+          "status": "operational",
+          "created_at": "2026-09-09T10:41:03.309-03:00",
+          "updated_at": "2026-09-11T09:30:55.073-03:00",
+          "position": 5,
+          "description": "Processamento de cancelamento de transações autorizadas (fluxo de liquidação).",
+          "showcase": false,
+          "start_date": "2026-09-09",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "5l42z7kqdjhs",
+      "name": "Indisponibilidade no produto Pix bancos",
+      "status": "resolved",
+      "created_at": "2026-09-10T02:33:42.900-03:00",
+      "updated_at": "2026-09-10T02:33:42.980-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-10T02:33:42.969-03:00",
+      "impact": "none",
+      "shortlink": "https://stspg.io/psl14364s27s",
+      "started_at": "2026-09-10T02:33:42.890-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "k8nhyjn08hsh",
+          "status": "resolved",
+          "body": "Indisponibilidade pontual no produto Pix Bancos entre 2h10 e 2h20. Ambiente normalizado.",
+          "incident_id": "5l42z7kqdjhs",
+          "created_at": "2026-09-10T02:33:42.969-03:00",
+          "updated_at": "2026-09-10T02:33:42.969-03:00",
+          "display_at": "2026-09-10T02:33:42.969-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "p7phdrtwwvm5",
+      "name": "Falha na validação de biometria via canais digitais",
+      "status": "resolved",
+      "created_at": "2026-09-09T12:27:37.000-03:00",
+      "updated_at": "2026-09-09T13:21:49.021-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-09T12:57:45.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/ybg4gnbnvjrd",
+      "started_at": "2026-09-09T12:27:37.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "khqpj4lblgr6",
+          "status": "resolved",
+          "body": "Normalizado.",
+          "incident_id": "p7phdrtwwvm5",
+          "created_at": "2026-09-09T13:20:45.508-03:00",
+          "updated_at": "2026-09-09T13:21:49.006-03:00",
+          "display_at": "2026-09-09T12:57:45.000-03:00",
+          "affected_components": [
+            {
+              "code": "c2ctjmmp29pl",
+              "name": "Canais de Relacionamento - Centrais de Atendimento",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "q37g04jx1r8d",
+              "name": "Canais de Relacionamento - Salesforce Atendimento",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "yf8q0xzjfv41",
+              "name": "Canais de Relacionamento - Site Cielo",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "v4lvv7d0gl9n",
+          "status": "investigating",
+          "body": "Em análise com os times técnicos.",
+          "incident_id": "p7phdrtwwvm5",
+          "created_at": "2026-09-09T13:08:37.339-03:00",
+          "updated_at": "2026-09-09T13:21:42.018-03:00",
+          "display_at": "2026-09-09T12:27:37.000-03:00",
+          "affected_components": [
+            {
+              "code": "c2ctjmmp29pl",
+              "name": "Canais de Relacionamento - Centrais de Atendimento",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "q37g04jx1r8d",
+              "name": "Canais de Relacionamento - Salesforce Atendimento",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yf8q0xzjfv41",
+              "name": "Canais de Relacionamento - Site Cielo",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "c2ctjmmp29pl",
+          "name": "Centrais de Atendimento",
+          "status": "operational",
+          "created_at": "2025-02-17T16:13:07.108-03:00",
+          "updated_at": "2026-09-09T13:20:45.455-03:00",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "pd9kfg2l1657",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "q37g04jx1r8d",
+          "name": "Salesforce Atendimento",
+          "status": "operational",
+          "created_at": "2025-02-17T16:14:36.292-03:00",
+          "updated_at": "2026-09-16T10:36:36.700-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "pd9kfg2l1657",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "yf8q0xzjfv41",
+          "name": "Site Cielo",
+          "status": "operational",
+          "created_at": "2025-02-17T16:15:04.433-03:00",
+          "updated_at": "2026-09-11T16:39:44.841-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "pd9kfg2l1657",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "741r547clx1p",
+      "name": "Indisponibilidade pontual para o emissor Rede Compras",
+      "status": "resolved",
+      "created_at": "2026-09-09T08:52:48.380-03:00",
+      "updated_at": "2026-09-09T10:55:07.607-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-09T10:55:07.593-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/kyh0b6f46rvc",
+      "started_at": "2026-09-09T08:52:48.369-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "6tplbgmvx6c3",
+          "status": "resolved",
+          "body": "Normalizado.",
+          "incident_id": "741r547clx1p",
+          "created_at": "2026-09-09T10:55:07.593-03:00",
+          "updated_at": "2026-09-09T10:55:07.593-03:00",
+          "display_at": "2026-09-09T10:55:07.593-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "h3670pf0nl3c",
+          "status": "investigating",
+          "body": "Times técnicos seguem em análise.",
+          "incident_id": "741r547clx1p",
+          "created_at": "2026-09-09T10:29:49.295-03:00",
+          "updated_at": "2026-09-09T10:29:49.295-03:00",
+          "display_at": "2026-09-09T10:29:49.295-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "b9y8kfmxvwyd",
+          "status": "investigating",
+          "body": "Estamos em investigação juntamente com o time da Rede Compras.",
+          "incident_id": "741r547clx1p",
+          "created_at": "2026-09-09T08:52:48.472-03:00",
+          "updated_at": "2026-09-09T08:52:48.472-03:00",
+          "display_at": "2026-09-09T08:52:48.472-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "88mhtlyp41f5",
+      "name": "Atraso no pagamento de SLC (Pagfor Crédito e Débito) pelo Itaú",
+      "status": "resolved",
+      "created_at": "2026-09-08T10:30:09.000-03:00",
+      "updated_at": "2026-09-08T11:50:30.236-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-08T11:49:05.527-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/gf952nrg9dpr",
+      "started_at": "2026-09-08T10:30:09.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "f3pp2r0l4df5",
+          "status": "resolved",
+          "body": "Pagamentos realizados pelo banco domicílio.",
+          "incident_id": "88mhtlyp41f5",
+          "created_at": "2026-09-08T11:49:05.527-03:00",
+          "updated_at": "2026-09-08T11:49:05.527-03:00",
+          "display_at": "2026-09-08T11:49:05.527-03:00",
+          "affected_components": [
+            {
+              "code": "dz8yg5x021b9",
+              "name": "Transacional - Liquidação Financeira (PagFor)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "9fpg6bj37gfs",
+          "status": "investigating",
+          "body": "Em investigação junto ao banco parceiro.",
+          "incident_id": "88mhtlyp41f5",
+          "created_at": "2026-09-08T11:35:09.330-03:00",
+          "updated_at": "2026-09-08T11:49:13.417-03:00",
+          "display_at": "2026-09-08T10:30:09.000-03:00",
+          "affected_components": [
+            {
+              "code": "dz8yg5x021b9",
+              "name": "Transacional - Liquidação Financeira (PagFor)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "dz8yg5x021b9",
+          "name": "Liquidação Financeira (PagFor)",
+          "status": "operational",
+          "created_at": "2025-02-17T16:18:00.544-03:00",
+          "updated_at": "2026-09-09T10:42:17.689-03:00",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "nrbktq0b72qj",
+      "name": "Erros e lentidão na consulta no extrato via Site",
+      "status": "resolved",
+      "created_at": "2026-09-08T09:21:05.095-03:00",
+      "updated_at": "2026-09-08T11:36:05.647-03:00",
+      "monitoring_at": "2026-09-08T09:40:10.664-03:00",
+      "resolved_at": "2026-09-08T11:36:05.627-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/00q5cfwg0hrf",
+      "started_at": "2026-09-08T09:21:05.085-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "v2tj3jjgpww5",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "nrbktq0b72qj",
+          "created_at": "2026-09-08T11:36:05.627-03:00",
+          "updated_at": "2026-09-08T11:36:05.627-03:00",
+          "display_at": "2026-09-08T11:36:05.627-03:00",
+          "affected_components": [
+            {
+              "code": "yf8q0xzjfv41",
+              "name": "Canais de Relacionamento - Site Cielo",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "qnjl55djx66b",
+          "status": "monitoring",
+          "body": "Ações de contorno realizadas, acompanhando para validar a efetividade.",
+          "incident_id": "nrbktq0b72qj",
+          "created_at": "2026-09-08T09:40:10.664-03:00",
+          "updated_at": "2026-09-08T09:40:10.664-03:00",
+          "display_at": "2026-09-08T09:40:10.664-03:00",
+          "affected_components": [
+            {
+              "code": "yf8q0xzjfv41",
+              "name": "Canais de Relacionamento - Site Cielo",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "9f1qqspggt4q",
+          "status": "investigating",
+          "body": "Em investigação.",
+          "incident_id": "nrbktq0b72qj",
+          "created_at": "2026-09-08T09:21:05.166-03:00",
+          "updated_at": "2026-09-08T09:21:05.166-03:00",
+          "display_at": "2026-09-08T09:21:05.166-03:00",
+          "affected_components": [
+            {
+              "code": "yf8q0xzjfv41",
+              "name": "Canais de Relacionamento - Site Cielo",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "yf8q0xzjfv41",
+          "name": "Site Cielo",
+          "status": "operational",
+          "created_at": "2025-02-17T16:15:04.433-03:00",
+          "updated_at": "2026-09-11T16:39:44.841-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "pd9kfg2l1657",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "4yk2nsvz3n4w",
+      "name": "Salesforce com lentidão para atendimento.",
+      "status": "resolved",
+      "created_at": "2026-09-08T10:26:12.712-03:00",
+      "updated_at": "2026-09-08T10:55:13.515-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-08T10:55:13.495-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/2qz7ztt3mcv9",
+      "started_at": "2026-09-08T10:26:12.704-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "xgv9q17hrybl",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "4yk2nsvz3n4w",
+          "created_at": "2026-09-08T10:55:13.495-03:00",
+          "updated_at": "2026-09-08T10:55:13.495-03:00",
+          "display_at": "2026-09-08T10:55:13.495-03:00",
+          "affected_components": [
+            {
+              "code": "q37g04jx1r8d",
+              "name": "Canais de Relacionamento - Salesforce Atendimento",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "s5lmcq2kqxv7",
+          "status": "identified",
+          "body": "Em análise pelos times técnicos.",
+          "incident_id": "4yk2nsvz3n4w",
+          "created_at": "2026-09-08T10:26:12.772-03:00",
+          "updated_at": "2026-09-08T10:26:12.772-03:00",
+          "display_at": "2026-09-08T10:26:12.772-03:00",
+          "affected_components": [
+            {
+              "code": "q37g04jx1r8d",
+              "name": "Canais de Relacionamento - Salesforce Atendimento",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "q37g04jx1r8d",
+          "name": "Salesforce Atendimento",
+          "status": "operational",
+          "created_at": "2025-02-17T16:14:36.292-03:00",
+          "updated_at": "2026-09-16T10:36:36.700-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "pd9kfg2l1657",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "4ptqm9cdbm9m",
+      "name": "Queda na taxa de conversão de pagamentos Pix para a instituição Nubank",
+      "status": "resolved",
+      "created_at": "2026-09-04T19:11:13.000-03:00",
+      "updated_at": "2026-09-04T23:50:59.482-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-04T23:11:37.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/4p3r4xvtys5b",
+      "started_at": "2026-09-04T19:11:13.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "k00czjxtscpt",
+          "status": "resolved",
+          "body": "Ambiente normalizado às 23h09, após intervenção técnica por parte do parceiro.",
+          "incident_id": "4ptqm9cdbm9m",
+          "created_at": "2026-09-04T23:50:37.421-03:00",
+          "updated_at": "2026-09-04T23:50:59.466-03:00",
+          "display_at": "2026-09-04T23:11:37.000-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "s370z5wdjg3h",
+          "status": "investigating",
+          "body": "Seguimos aguardando retorno.",
+          "incident_id": "4ptqm9cdbm9m",
+          "created_at": "2026-09-04T21:49:28.314-03:00",
+          "updated_at": "2026-09-04T21:49:28.314-03:00",
+          "display_at": "2026-09-04T21:49:28.314-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jdvhv9clxbj6",
+          "status": "investigating",
+          "body": "Identificada a queda de conversão de pagamentos do Pix, solicitada a análise do parceiro.",
+          "incident_id": "4ptqm9cdbm9m",
+          "created_at": "2026-09-04T19:59:13.833-03:00",
+          "updated_at": "2026-09-04T20:01:48.112-03:00",
+          "display_at": "2026-09-04T19:11:13.000-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "p7r0lbcflnrz",
+      "name": "Atraso na atualização de status de pagamento de transações PIX-Ecommerce",
+      "status": "resolved",
+      "created_at": "2026-09-04T15:13:17.102-03:00",
+      "updated_at": "2026-09-04T16:14:04.685-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-04T15:13:37.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/37lfrr04tcbt",
+      "started_at": "2026-09-04T15:13:17.092-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "z5jsks54014s",
+          "status": "resolved",
+          "body": "Ambiente normalizado",
+          "incident_id": "p7r0lbcflnrz",
+          "created_at": "2026-09-04T16:13:37.488-03:00",
+          "updated_at": "2026-09-04T16:14:04.669-03:00",
+          "display_at": "2026-09-04T15:13:37.000-03:00",
+          "affected_components": [
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8bt9n6cgd546",
+          "status": "investigating",
+          "body": "Estamos investigando este cenário.",
+          "incident_id": "p7r0lbcflnrz",
+          "created_at": "2026-09-04T15:13:17.181-03:00",
+          "updated_at": "2026-09-04T15:13:17.181-03:00",
+          "display_at": "2026-09-04T15:13:17.181-03:00",
+          "affected_components": [
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "mh0f6fyn4xkh",
+          "name": "e-Commerce - PSP",
+          "status": "operational",
+          "created_at": "2023-09-13T14:51:40.696-03:00",
+          "updated_at": "2026-09-15T15:30:57.016-03:00",
+          "position": 7,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "x1yzkwzqngcm",
+      "name": "Indisponibilidade API Remota Cielo LIO",
+      "status": "resolved",
+      "created_at": "2026-09-03T12:12:50.334-03:00",
+      "updated_at": "2026-09-04T02:44:19.738-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-04T02:44:19.724-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/3gzt3r31c4jr",
+      "started_at": "2026-09-03T17:03:46.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "7xkv8pk8g7fw",
+          "status": "resolved",
+          "body": "Ambiente normalizado após intervenções técnicas.",
+          "incident_id": "x1yzkwzqngcm",
+          "created_at": "2026-09-04T02:44:19.724-03:00",
+          "updated_at": "2026-09-04T02:44:19.724-03:00",
+          "display_at": "2026-09-04T02:44:19.724-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "4dy7sn4t410f",
+          "status": "investigating",
+          "body": "Equipes técnicas seguem com a análise e ações para reestabelecer o ambiente, mais informações em breve.",
+          "incident_id": "x1yzkwzqngcm",
+          "created_at": "2026-09-03T21:38:05.082-03:00",
+          "updated_at": "2026-09-03T21:38:05.082-03:00",
+          "display_at": "2026-09-03T21:38:05.082-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0n4l1pphgjzc",
+          "status": "investigating",
+          "body": "Equipes técnicas continuam em análise do ocorrido, trabalhando para reestabelecer o ambiente.",
+          "incident_id": "x1yzkwzqngcm",
+          "created_at": "2026-09-03T20:20:04.725-03:00",
+          "updated_at": "2026-09-03T20:20:04.725-03:00",
+          "display_at": "2026-09-03T20:20:04.725-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8tp0g8jg26p3",
+          "status": "investigating",
+          "body": "Equipes técnicas continuam em análise do ocorrido, trabalhando para reestabelecer o ambiente.",
+          "incident_id": "x1yzkwzqngcm",
+          "created_at": "2026-09-03T19:11:57.921-03:00",
+          "updated_at": "2026-09-03T19:11:57.921-03:00",
+          "display_at": "2026-09-03T19:11:57.921-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "pcwztq642c4k",
+          "status": "investigating",
+          "body": "Seguimos com nossas equipes empenhadas na resolução do incidente.",
+          "incident_id": "x1yzkwzqngcm",
+          "created_at": "2026-09-03T17:49:17.688-03:00",
+          "updated_at": "2026-09-03T17:49:17.688-03:00",
+          "display_at": "2026-09-03T17:49:17.688-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0z8svksqywmv",
+          "status": "investigating",
+          "body": "Seguimos analisando o caso.",
+          "incident_id": "x1yzkwzqngcm",
+          "created_at": "2026-09-03T17:04:20.998-03:00",
+          "updated_at": "2026-09-03T17:04:20.998-03:00",
+          "display_at": "2026-09-03T17:04:20.998-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "sbrlbbn773rz",
+          "status": "investigating",
+          "body": "Seguimos analisando o caso.",
+          "incident_id": "x1yzkwzqngcm",
+          "created_at": "2026-09-03T17:03:46.294-03:00",
+          "updated_at": "2026-09-03T17:04:11.574-03:00",
+          "display_at": "2026-09-03T14:03:46.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "209cr7bkvpxw",
+          "status": "investigating",
+          "body": "Estamos analisando o caso.",
+          "incident_id": "x1yzkwzqngcm",
+          "created_at": "2026-09-03T12:12:50.410-03:00",
+          "updated_at": "2026-09-03T12:12:50.410-03:00",
+          "display_at": "2026-09-03T12:12:50.410-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": "[]"
+    },
+    {
+      "id": "b5zl6kjkqmq0",
+      "name": "Indisponibilidade no pagamento de Qr Code Pix Bancos e Cielo para o emissor Caixa Econômica Federal",
+      "status": "resolved",
+      "created_at": "2026-09-03T11:42:36.000-03:00",
+      "updated_at": "2026-09-03T12:03:25.147-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-03T11:50:44.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/hrmy2qtkfhjd",
+      "started_at": "2026-09-03T11:42:36.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "q3x46mgbcm6n",
+          "status": "resolved",
+          "body": "Normalizado.",
+          "incident_id": "b5zl6kjkqmq0",
+          "created_at": "2026-09-03T12:02:44.329-03:00",
+          "updated_at": "2026-09-03T12:03:00.069-03:00",
+          "display_at": "2026-09-03T11:50:44.000-03:00",
+          "affected_components": [
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "by37gv1kypr2",
+          "status": "investigating",
+          "body": "Em análise pelo emissor",
+          "incident_id": "b5zl6kjkqmq0",
+          "created_at": "2026-09-03T11:51:36.140-03:00",
+          "updated_at": "2026-09-03T12:03:25.144-03:00",
+          "display_at": "2026-09-03T11:42:36.000-03:00",
+          "affected_components": [
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "q958k914l9vp",
+      "name": "Aumento de desfazimentos no Mundo Físico",
+      "status": "resolved",
+      "created_at": "2026-09-02T12:21:26.119-03:00",
+      "updated_at": "2026-09-02T13:48:32.108-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-02T13:48:32.089-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/kky5h3wjmshz",
+      "started_at": "2026-09-02T12:21:26.107-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "8q3yt1jhrffd",
+          "status": "resolved",
+          "body": "Incidente resolvido",
+          "incident_id": "q958k914l9vp",
+          "created_at": "2026-09-02T13:48:32.089-03:00",
+          "updated_at": "2026-09-02T13:48:32.089-03:00",
+          "display_at": "2026-09-02T13:48:32.089-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "rblgswk80nsj",
+          "status": "investigating",
+          "body": "Estamos investigando.",
+          "incident_id": "q958k914l9vp",
+          "created_at": "2026-09-02T12:21:26.212-03:00",
+          "updated_at": "2026-09-02T12:21:26.212-03:00",
+          "display_at": "2026-09-02T12:21:26.212-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "xjsc217gsfjq",
+      "name": "Atraso na efetivação de operações de Antecipação",
+      "status": "resolved",
+      "created_at": "2026-09-01T15:00:31.000-03:00",
+      "updated_at": "2026-09-01T20:07:35.433-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-01T20:07:35.420-03:00",
+      "impact": "critical",
+      "shortlink": "https://stspg.io/xyf2ndm19bg9",
+      "started_at": "2026-09-01T15:00:31.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "gh3lstpk94kl",
+          "status": "resolved",
+          "body": "Antecipações efetivadas com sucesso",
+          "incident_id": "xjsc217gsfjq",
+          "created_at": "2026-09-01T20:07:35.420-03:00",
+          "updated_at": "2026-09-01T20:07:35.420-03:00",
+          "display_at": "2026-09-01T20:07:35.420-03:00",
+          "affected_components": [
+            {
+              "code": "dz8yg5x021b9",
+              "name": "Transacional - Liquidação Financeira (PagFor)",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "7hwzqm33v5fn",
+              "name": "Produtos de Prazo - ARV",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "ghb53w0lvv99",
+          "status": "identified",
+          "body": "Seguimos trabalhando para restabelecer o ambiente.",
+          "incident_id": "xjsc217gsfjq",
+          "created_at": "2026-09-01T18:57:15.720-03:00",
+          "updated_at": "2026-09-01T18:57:21.872-03:00",
+          "display_at": "2026-09-01T18:57:15.000-03:00",
+          "affected_components": [
+            {
+              "code": "dz8yg5x021b9",
+              "name": "Transacional - Liquidação Financeira (PagFor)",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "7hwzqm33v5fn",
+              "name": "Produtos de Prazo - ARV",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "xxy6vd172x3h",
+          "status": "identified",
+          "body": "Seguimos trabalhando para restabelecer o ambiente.",
+          "incident_id": "xjsc217gsfjq",
+          "created_at": "2026-09-01T18:14:26.953-03:00",
+          "updated_at": "2026-09-01T18:16:27.937-03:00",
+          "display_at": "2026-09-01T16:00:26.000-03:00",
+          "affected_components": [
+            {
+              "code": "dz8yg5x021b9",
+              "name": "Transacional - Liquidação Financeira (PagFor)",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "7hwzqm33v5fn",
+              "name": "Produtos de Prazo - ARV",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "d8n2ds8bl5nf",
+          "status": "identified",
+          "body": "Times internos seguem na tratativa e ações corretivas",
+          "incident_id": "xjsc217gsfjq",
+          "created_at": "2026-09-01T18:12:31.580-03:00",
+          "updated_at": "2026-09-01T18:15:59.067-03:00",
+          "display_at": "2026-09-01T15:00:31.000-03:00",
+          "affected_components": [
+            {
+              "code": "7hwzqm33v5fn",
+              "name": "Produtos de Prazo - ARV",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7hwzqm33v5fn",
+          "name": "ARV",
+          "status": "operational",
+          "created_at": "2025-02-17T16:16:13.149-03:00",
+          "updated_at": "2026-09-21T15:51:51.232-03:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "t0jb5x4hqnh6",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "dz8yg5x021b9",
+          "name": "Liquidação Financeira (PagFor)",
+          "status": "operational",
+          "created_at": "2025-02-17T16:18:00.544-03:00",
+          "updated_at": "2026-09-09T10:42:17.689-03:00",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "4l4fl6fj7cxs",
+      "name": "Indisponibilidade para o emissor Valecard Mundo Físico",
+      "status": "resolved",
+      "created_at": "2026-09-01T10:01:55.244-03:00",
+      "updated_at": "2026-09-01T10:47:29.391-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-01T10:47:29.375-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/g6c1dk9hkhy7",
+      "started_at": "2026-09-01T10:01:55.228-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "8t2jqnp5r820",
+          "status": "resolved",
+          "body": "Ambiente normalizado após ações do emissor.",
+          "incident_id": "4l4fl6fj7cxs",
+          "created_at": "2026-09-01T10:47:29.375-03:00",
+          "updated_at": "2026-09-01T10:47:29.375-03:00",
+          "display_at": "2026-09-01T10:47:29.375-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jts37nt0pzb6",
+          "status": "investigating",
+          "body": "Em analise pelo emissor",
+          "incident_id": "4l4fl6fj7cxs",
+          "created_at": "2026-09-01T10:01:55.389-03:00",
+          "updated_at": "2026-09-01T10:01:55.389-03:00",
+          "display_at": "2026-09-01T10:01:55.389-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "7xmnjf52c55z",
+      "name": "Transações Gateway Pagador indisponíveis através do parceiro Redecard",
+      "status": "resolved",
+      "created_at": "2026-08-31T12:27:38.019-03:00",
+      "updated_at": "2026-08-31T13:43:24.927-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-31T13:43:24.907-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/x2zhxrdh7pz8",
+      "started_at": "2026-08-31T12:27:54.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "qk0l1dlfnxbc",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "7xmnjf52c55z",
+          "created_at": "2026-08-31T13:43:24.907-03:00",
+          "updated_at": "2026-08-31T13:43:24.907-03:00",
+          "display_at": "2026-08-31T13:43:24.907-03:00",
+          "affected_components": [
+            {
+              "code": "6129pxjwtfvn",
+              "name": "Transacional - e-Commerce - Parceiros",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "p3t1dk9p18bp",
+          "status": "investigating",
+          "body": "Ambiente normalizado.",
+          "incident_id": "7xmnjf52c55z",
+          "created_at": "2026-08-31T13:43:09.279-03:00",
+          "updated_at": "2026-08-31T13:43:09.279-03:00",
+          "display_at": "2026-08-31T13:43:09.279-03:00",
+          "affected_components": [
+            {
+              "code": "6129pxjwtfvn",
+              "name": "Transacional - e-Commerce - Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7lp3thjvnhn3",
+          "status": "investigating",
+          "body": "Identificado um problema no ambiente da Redecard.\nEstamos acompanhando.",
+          "incident_id": "7xmnjf52c55z",
+          "created_at": "2026-08-31T12:27:54.928-03:00",
+          "updated_at": "2026-08-31T13:00:36.760-03:00",
+          "display_at": "2026-08-31T12:27:54.000-03:00",
+          "affected_components": [
+            {
+              "code": "6129pxjwtfvn",
+              "name": "Transacional - e-Commerce - Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "5skd70qwttfz",
+          "status": "investigating",
+          "body": "Estamos investigando.",
+          "incident_id": "7xmnjf52c55z",
+          "created_at": "2026-08-31T12:27:38.104-03:00",
+          "updated_at": "2026-08-31T12:27:38.104-03:00",
+          "display_at": "2026-08-31T12:27:38.104-03:00",
+          "affected_components": [
+            {
+              "code": "6129pxjwtfvn",
+              "name": "Transacional - e-Commerce - Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "6129pxjwtfvn",
+          "name": "e-Commerce - Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:08:22.492-03:00",
+          "updated_at": "2026-09-09T10:42:17.668-03:00",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "mh0f6fyn4xkh",
+          "name": "e-Commerce - PSP",
+          "status": "operational",
+          "created_at": "2023-09-13T14:51:40.696-03:00",
+          "updated_at": "2026-09-15T15:30:57.016-03:00",
+          "position": 7,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "t1cdsgdb67td",
+      "name": "Indisponibilidade Parcial Bandeira Visa",
+      "status": "resolved",
+      "created_at": "2026-08-29T12:02:41.000-03:00",
+      "updated_at": "2026-08-29T14:12:33.759-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-29T12:12:37.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/tklv1bcf84dj",
+      "started_at": "2026-08-29T12:02:41.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "ltbr85hwq1qr",
+          "status": "resolved",
+          "body": "Normalizado.",
+          "incident_id": "t1cdsgdb67td",
+          "created_at": "2026-08-29T14:11:37.448-03:00",
+          "updated_at": "2026-08-29T14:12:33.741-03:00",
+          "display_at": "2026-08-29T12:12:37.000-03:00",
+          "affected_components": [
+            {
+              "code": "3zj9v894hf9y",
+              "name": "Transacional - Autorizador Digital",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "kb4sx93kykg4",
+          "status": "investigating",
+          "body": "Em análise pelo parceiro.",
+          "incident_id": "t1cdsgdb67td",
+          "created_at": "2026-08-29T12:31:41.617-03:00",
+          "updated_at": "2026-08-29T14:12:31.337-03:00",
+          "display_at": "2026-08-29T12:02:41.000-03:00",
+          "affected_components": [
+            {
+              "code": "3zj9v894hf9y",
+              "name": "Transacional - Autorizador Digital",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "3zj9v894hf9y",
+          "name": "Autorizador Digital",
+          "status": "operational",
+          "created_at": "2025-02-17T16:01:11.574-03:00",
+          "updated_at": "2026-09-15T15:30:57.001-03:00",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2024-10-31",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "1bn64nkn39f5",
+      "name": "Queda na taxa de aprovação do QR Code Carteiras Digitais",
+      "status": "resolved",
+      "created_at": "2026-08-29T08:38:00.000-03:00",
+      "updated_at": "2026-08-29T11:56:09.834-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-29T11:56:09.810-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/b0cpnswgbq13",
+      "started_at": "2026-08-29T08:38:00.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "l2s16tttgwy7",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "1bn64nkn39f5",
+          "created_at": "2026-08-29T11:56:09.810-03:00",
+          "updated_at": "2026-08-29T11:56:09.810-03:00",
+          "display_at": "2026-08-29T11:56:09.810-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "v1y98zykrfqd",
+          "status": "investigating",
+          "body": "Identificado uma queda na taxa de aprovação para o QR Code de Carteiras Digitais.\n\nEm análise com o time técnico.",
+          "incident_id": "1bn64nkn39f5",
+          "created_at": "2026-08-29T09:43:00.884-03:00",
+          "updated_at": "2026-08-29T09:43:36.048-03:00",
+          "display_at": "2026-08-29T08:38:00.000-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "by4y3j27d18x",
+      "name": "Indisponibilidade Parcial Bandeira Visa",
+      "status": "resolved",
+      "created_at": "2026-08-29T07:58:19.306-03:00",
+      "updated_at": "2026-08-29T10:38:52.879-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-29T10:00:39.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/1cv0p245kt4z",
+      "started_at": "2026-08-29T07:58:19.293-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "zg8879bwdx2m",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "by4y3j27d18x",
+          "created_at": "2026-08-29T10:38:39.553-03:00",
+          "updated_at": "2026-08-29T10:38:52.866-03:00",
+          "display_at": "2026-08-29T10:00:39.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "6129pxjwtfvn",
+              "name": "Transacional - e-Commerce - Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "3bhbdtqj5sgf",
+          "status": "identified",
+          "body": "Foi identificado um problema na Dock, que processa transações para diversos emissores.\n\nEmissores impactados:\n- Banestes\n- BRB\n- Brasil Card\n- Renner\n- Caju Benefícios\n- Unicred\n- Renner\n- Banco Digio\n- Pottencial\n- Banco XP\n- Pagseguro\n\nAté o momento não temos previsão de resolução por parte do parceiro.\n\nSeguimos acompanhando o ambiente.",
+          "incident_id": "by4y3j27d18x",
+          "created_at": "2026-08-29T08:24:15.928-03:00",
+          "updated_at": "2026-08-29T08:24:15.928-03:00",
+          "display_at": "2026-08-29T08:24:15.928-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "6129pxjwtfvn",
+              "name": "Transacional - e-Commerce - Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "z5xzbgdggd93",
+          "status": "investigating",
+          "body": "Em análise pela bandeira",
+          "incident_id": "by4y3j27d18x",
+          "created_at": "2026-08-29T07:58:19.426-03:00",
+          "updated_at": "2026-08-29T07:58:19.426-03:00",
+          "display_at": "2026-08-29T07:58:19.426-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "6129pxjwtfvn",
+              "name": "Transacional - e-Commerce - Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "6129pxjwtfvn",
+          "name": "e-Commerce - Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:08:22.492-03:00",
+          "updated_at": "2026-09-09T10:42:17.668-03:00",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "mh0f6fyn4xkh",
+          "name": "e-Commerce - PSP",
+          "status": "operational",
+          "created_at": "2023-09-13T14:51:40.696-03:00",
+          "updated_at": "2026-09-15T15:30:57.016-03:00",
+          "position": 7,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "4k4hd9zsnzq1",
+      "name": "QR-Code Pix Bancos Bradesco parcialmente indisponível",
+      "status": "resolved",
+      "created_at": "2026-08-28T07:41:22.742-03:00",
+      "updated_at": "2026-08-28T13:53:40.755-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-28T13:53:40.738-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/8wmr8b1npywh",
+      "started_at": "2026-08-28T07:41:22.730-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "6zzhqg6sxxt2",
+          "status": "resolved",
+          "body": "Ambiente normalizado",
+          "incident_id": "4k4hd9zsnzq1",
+          "created_at": "2026-08-28T13:53:40.738-03:00",
+          "updated_at": "2026-08-28T13:53:40.738-03:00",
+          "display_at": "2026-08-28T13:53:40.738-03:00",
+          "affected_components": [
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "nr80258nr9c9",
+          "status": "investigating",
+          "body": "Em análise pelo emissor.",
+          "incident_id": "4k4hd9zsnzq1",
+          "created_at": "2026-08-28T07:41:22.842-03:00",
+          "updated_at": "2026-08-28T07:41:22.842-03:00",
+          "display_at": "2026-08-28T07:41:22.842-03:00",
+          "affected_components": [
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "cfrq7mfp9wfm",
+      "name": "Intermitência na visualização de equipamentos através do Site Cielo",
+      "status": "resolved",
+      "created_at": "2026-08-27T16:34:24.238-03:00",
+      "updated_at": "2026-08-27T16:34:24.308-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-27T16:34:24.296-03:00",
+      "impact": "none",
+      "shortlink": "https://stspg.io/0gvtpqw653f9",
+      "started_at": "2026-08-27T16:34:24.228-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "g21qfvq4rqyj",
+          "status": "resolved",
+          "body": "Informamos que foi identificado e corrigido instabilidade na visualização de equipamentos e em funcionalidades de autoatendimento. O ambiente encontra-se estável.",
+          "incident_id": "cfrq7mfp9wfm",
+          "created_at": "2026-08-27T16:34:24.296-03:00",
+          "updated_at": "2026-08-27T16:34:24.296-03:00",
+          "display_at": "2026-08-27T16:34:24.296-03:00",
+          "affected_components": [
+            {
+              "code": "mxrw2bjlt5s8",
+              "name": "Canais de Relacionamento - App Cielo",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "yf8q0xzjfv41",
+              "name": "Canais de Relacionamento - Site Cielo",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "mxrw2bjlt5s8",
+          "name": "App Cielo",
+          "status": "operational",
+          "created_at": "2025-02-17T16:12:37.278-03:00",
+          "updated_at": "2026-07-30T09:16:15.139-03:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "pd9kfg2l1657",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "yf8q0xzjfv41",
+          "name": "Site Cielo",
+          "status": "operational",
+          "created_at": "2025-02-17T16:15:04.433-03:00",
+          "updated_at": "2026-09-11T16:39:44.841-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "pd9kfg2l1657",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "g6311rt6ybfj",
+      "name": "Indisponibilidade pontual para o emissor Alelo Auto - Voucher",
+      "status": "resolved",
+      "created_at": "2026-08-27T12:03:45.000-03:00",
+      "updated_at": "2026-08-27T12:54:35.271-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-27T12:26:25.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/9zb37dv0rc14",
+      "started_at": "2026-08-27T12:03:45.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "qwz1k8cpzmpj",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "g6311rt6ybfj",
+          "created_at": "2026-08-27T12:54:25.621-03:00",
+          "updated_at": "2026-08-27T12:54:35.253-03:00",
+          "display_at": "2026-08-27T12:26:25.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "kj1gp8cnw4cx",
+          "status": "investigating",
+          "body": "Em análise pelo emissor.",
+          "incident_id": "g6311rt6ybfj",
+          "created_at": "2026-08-27T12:37:45.639-03:00",
+          "updated_at": "2026-08-27T12:38:02.791-03:00",
+          "display_at": "2026-08-27T12:03:45.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "nv9tkqhcvxk3",
+      "name": "Queda na taxa de aprovação do QR Code Carteiras Digitais",
+      "status": "resolved",
+      "created_at": "2026-08-25T16:24:25.598-03:00",
+      "updated_at": "2026-08-25T16:24:25.657-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-25T16:24:25.645-03:00",
+      "impact": "none",
+      "shortlink": "https://stspg.io/mvvvxng39ztm",
+      "started_at": "2026-08-25T16:24:25.590-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "zr973n5zjcf6",
+          "status": "resolved",
+          "body": "Identificado uma queda na taxa de aprovação para o QR Code de Carteiras Digitais.\n\nAmbiente normalizado após ações das equipes técnicas.",
+          "incident_id": "nv9tkqhcvxk3",
+          "created_at": "2026-08-25T16:24:25.645-03:00",
+          "updated_at": "2026-08-25T16:24:25.645-03:00",
+          "display_at": "2026-08-25T16:24:25.645-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": "[]"
+    },
+    {
+      "id": "s3zwqnvncsjb",
+      "name": "Intermitência na API 3.0, E-Commerce.",
+      "status": "resolved",
+      "created_at": "2026-08-25T01:56:13.000-03:00",
+      "updated_at": "2026-08-25T02:46:43.579-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-25T01:56:13.000-03:00",
+      "impact": "none",
+      "shortlink": "https://stspg.io/mp2j6twh9257",
+      "started_at": "2026-08-25T01:56:13.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "0qtv4bsxhrcd",
+          "status": "resolved",
+          "body": "Este incidente foi resolvido.",
+          "incident_id": "s3zwqnvncsjb",
+          "created_at": "2026-08-25T02:46:13.561-03:00",
+          "updated_at": "2026-08-25T02:46:43.506-03:00",
+          "display_at": "2026-08-25T01:56:13.000-03:00",
+          "affected_components": [
+            {
+              "code": "6129pxjwtfvn",
+              "name": "Transacional - e-Commerce - Parceiros",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "6129pxjwtfvn",
+          "name": "e-Commerce - Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:08:22.492-03:00",
+          "updated_at": "2026-09-09T10:42:17.668-03:00",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "8l7k6ghr6b75",
+      "name": "Indisponibilidade nos pagamentos PIX QrCode",
+      "status": "resolved",
+      "created_at": "2026-08-23T07:06:51.423-03:00",
+      "updated_at": "2026-08-23T09:13:46.332-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-23T09:13:46.317-03:00",
+      "impact": "critical",
+      "shortlink": "https://stspg.io/0lwmp3rn9qjc",
+      "started_at": "2026-08-23T07:06:51.414-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "frpsbbxfx5f1",
+          "status": "resolved",
+          "body": "Incidente normalizado após intervenção técnica do BACEN.",
+          "incident_id": "8l7k6ghr6b75",
+          "created_at": "2026-08-23T09:13:46.317-03:00",
+          "updated_at": "2026-08-23T09:13:46.317-03:00",
+          "display_at": "2026-08-23T09:13:46.317-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "2fd4f63wm3k3",
+          "status": "identified",
+          "body": "Problema no ambiente BACEN.\nSeguimos acompanhando as atualizações.",
+          "incident_id": "8l7k6ghr6b75",
+          "created_at": "2026-08-23T08:38:08.021-03:00",
+          "updated_at": "2026-08-23T08:38:08.021-03:00",
+          "display_at": "2026-08-23T08:38:08.021-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "h7c665jp67pm",
+          "status": "investigating",
+          "body": "Estamos investigando.",
+          "incident_id": "8l7k6ghr6b75",
+          "created_at": "2026-08-23T07:06:51.497-03:00",
+          "updated_at": "2026-08-23T07:06:51.497-03:00",
+          "display_at": "2026-08-23T07:06:51.497-03:00",
+          "affected_components": [
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "8tr7gr6m5vqn",
+      "name": "Intermitência Cartão Protegido Web Service",
+      "status": "resolved",
+      "created_at": "2026-08-22T11:43:30.132-03:00",
+      "updated_at": "2026-08-22T11:43:30.177-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-22T11:43:30.169-03:00",
+      "impact": "none",
+      "shortlink": "https://stspg.io/nj60s2g68xpp",
+      "started_at": "2026-08-22T11:43:30.126-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "hcwydc7k2fqq",
+          "status": "resolved",
+          "body": "Identificamos uma intermitência no ambiente do Cartão Protegido Web Service, impactando na tokenização de cartões. \n\nAmbiente normalizado no momento.",
+          "incident_id": "8tr7gr6m5vqn",
+          "created_at": "2026-08-22T11:43:30.169-03:00",
+          "updated_at": "2026-08-22T11:43:30.169-03:00",
+          "display_at": "2026-08-22T11:43:30.169-03:00",
+          "affected_components": [
+            {
+              "code": "mh0f6fyn4xkh",
+              "name": "Transacional - e-Commerce - PSP",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "mh0f6fyn4xkh",
+          "name": "e-Commerce - PSP",
+          "status": "operational",
+          "created_at": "2023-09-13T14:51:40.696-03:00",
+          "updated_at": "2026-09-15T15:30:57.016-03:00",
+          "position": 7,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": "[]"
+    },
+    {
+      "id": "my2z4s90skxc",
+      "name": "QR-Code Pix Bancos Bradesco parcialmente indisponível",
+      "status": "resolved",
+      "created_at": "2026-08-21T07:20:15.000-03:00",
+      "updated_at": "2026-08-21T11:44:58.147-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-21T11:44:58.131-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/4qxt60pcxs4t",
+      "started_at": "2026-08-21T07:20:15.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "q850r0z6rxh5",
+          "status": "resolved",
+          "body": "Ambiente normalizado",
+          "incident_id": "my2z4s90skxc",
+          "created_at": "2026-08-21T11:44:58.131-03:00",
+          "updated_at": "2026-08-21T11:44:58.131-03:00",
+          "display_at": "2026-08-21T11:44:58.131-03:00",
+          "affected_components": [
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "ngnpwrvqqrz5",
+          "status": "investigating",
+          "body": "Segue em avaliação pelo Bradesco.",
+          "incident_id": "my2z4s90skxc",
+          "created_at": "2026-08-21T10:16:51.893-03:00",
+          "updated_at": "2026-08-21T10:17:06.892-03:00",
+          "display_at": "2026-08-21T10:16:51.000-03:00",
+          "affected_components": [
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7v08n6z0rrng",
+          "status": "investigating",
+          "body": "Em análise pelo banco.",
+          "incident_id": "my2z4s90skxc",
+          "created_at": "2026-08-21T08:03:15.967-03:00",
+          "updated_at": "2026-08-21T10:16:42.196-03:00",
+          "display_at": "2026-08-21T07:20:15.000-03:00",
+          "affected_components": [
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "n0n3lzdwjsdj",
+              "name": "Transacional - Pix",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "n0n3lzdwjsdj",
+          "name": "Pix",
+          "status": "operational",
+          "created_at": "2025-02-17T16:10:58.973-03:00",
+          "updated_at": "2026-09-20T14:40:12.100-03:00",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "lxdzql58gwxj",
+      "name": "VR Voucher parcialmente Indisponível para transações físicas",
+      "status": "resolved",
+      "created_at": "2026-08-21T08:25:47.000-03:00",
+      "updated_at": "2026-08-21T09:13:47.815-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-21T08:38:14.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/97bqy11m2hbz",
+      "started_at": "2026-08-21T08:25:47.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "vcjms1rv59df",
+          "status": "resolved",
+          "body": "Normalizado.",
+          "incident_id": "lxdzql58gwxj",
+          "created_at": "2026-08-21T09:13:14.648-03:00",
+          "updated_at": "2026-08-21T09:13:47.796-03:00",
+          "display_at": "2026-08-21T08:38:14.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "2gs12r11ywx7",
+          "status": "identified",
+          "body": "Caso segue em analise pelo emissor.",
+          "incident_id": "lxdzql58gwxj",
+          "created_at": "2026-08-21T08:43:47.678-03:00",
+          "updated_at": "2026-08-21T09:13:40.747-03:00",
+          "display_at": "2026-08-21T08:25:47.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "j36hr2dl8tqm",
+      "name": "Inicialização de terminal TapOnPhone indisponível",
+      "status": "resolved",
+      "created_at": "2026-08-18T15:31:20.685-03:00",
+      "updated_at": "2026-08-18T15:31:20.756-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-18T15:31:20.741-03:00",
+      "impact": "none",
+      "shortlink": "https://stspg.io/mrz435cp4mkm",
+      "started_at": "2026-08-18T15:31:20.676-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "yrmryj7ts0b4",
+          "status": "resolved",
+          "body": "Ambiente normalziado.",
+          "incident_id": "j36hr2dl8tqm",
+          "created_at": "2026-08-18T15:31:20.741-03:00",
+          "updated_at": "2026-08-18T15:31:20.741-03:00",
+          "display_at": "2026-08-18T15:31:20.741-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "kkxmt9czmyh6",
+      "name": "Intermitência Ticket Voucher",
+      "status": "resolved",
+      "created_at": "2026-08-18T12:56:42.843-03:00",
+      "updated_at": "2026-08-18T13:09:31.274-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-18T13:09:31.258-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/nwhsjhfypr9d",
+      "started_at": "2026-08-18T12:56:42.834-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "pjtj2y561vjh",
+          "status": "resolved",
+          "body": "Ambiente normalizado",
+          "incident_id": "kkxmt9czmyh6",
+          "created_at": "2026-08-18T13:09:31.258-03:00",
+          "updated_at": "2026-08-18T13:09:31.258-03:00",
+          "display_at": "2026-08-18T13:09:31.258-03:00",
+          "affected_components": [
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "slv5zrbqfkym",
+          "status": "investigating",
+          "body": "Identificada intermitência na autorização de transações Ticket Voucher para o mundo físico. \n\nCaso está em análise pelo time da bandeira.",
+          "incident_id": "kkxmt9czmyh6",
+          "created_at": "2026-08-18T12:56:42.908-03:00",
+          "updated_at": "2026-08-18T12:56:42.908-03:00",
+          "display_at": "2026-08-18T12:56:42.908-03:00",
+          "affected_components": [
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": "[]"
+    },
+    {
+      "id": "zpqx3ln9fbb4",
+      "name": "Potencial atraso no pagamento de SLC (Pagfor Crédito) pelo Itaú",
+      "status": "resolved",
+      "created_at": "2026-08-17T11:46:31.000-03:00",
+      "updated_at": "2026-09-08T11:50:48.313-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-17T15:25:24.594-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/9hktv207pbyz",
+      "started_at": "2026-08-17T11:46:31.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "p56zvk9bn7b2",
+          "status": "resolved",
+          "body": "Pagamentos realizados pelo banco domicílio.",
+          "incident_id": "zpqx3ln9fbb4",
+          "created_at": "2026-08-17T15:25:24.594-03:00",
+          "updated_at": "2026-08-17T15:25:24.594-03:00",
+          "display_at": "2026-08-17T15:25:24.594-03:00",
+          "affected_components": [
+            {
+              "code": "dz8yg5x021b9",
+              "name": "Transacional - Liquidação Financeira (PagFor)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "h3k59qwjq35y",
+          "status": "identified",
+          "body": "===Atualização===\nBanco Itaú informa que os pagamentos estão sendo processados de forma gradativa.\nPrevisão de conclusão: 15h30",
+          "incident_id": "zpqx3ln9fbb4",
+          "created_at": "2026-08-17T14:26:36.440-03:00",
+          "updated_at": "2026-08-17T14:26:43.161-03:00",
+          "display_at": "2026-08-17T14:20:36.000-03:00",
+          "affected_components": [
+            {
+              "code": "dz8yg5x021b9",
+              "name": "Transacional - Liquidação Financeira (PagFor)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "wsq8wsbfx73k",
+          "status": "identified",
+          "body": "Confirmado pelo banco Itaú atraso no processamento dos pagamentos em seu ambiente.\nEstimativa: 14h",
+          "incident_id": "zpqx3ln9fbb4",
+          "created_at": "2026-08-17T12:08:33.598-03:00",
+          "updated_at": "2026-08-17T12:08:33.598-03:00",
+          "display_at": "2026-08-17T12:08:33.598-03:00",
+          "affected_components": [
+            {
+              "code": "dz8yg5x021b9",
+              "name": "Transacional - Liquidação Financeira (PagFor)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8yh1x97th0hr",
+          "status": "investigating",
+          "body": "O banco Itaú foi acionado. Pendente confirmação.",
+          "incident_id": "zpqx3ln9fbb4",
+          "created_at": "2026-08-17T11:46:31.426-03:00",
+          "updated_at": "2026-08-17T12:09:34.383-03:00",
+          "display_at": "2026-08-17T11:46:31.000-03:00",
+          "affected_components": [
+            {
+              "code": "dz8yg5x021b9",
+              "name": "Transacional - Liquidação Financeira (PagFor)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "dz8yg5x021b9",
+          "name": "Liquidação Financeira (PagFor)",
+          "status": "operational",
+          "created_at": "2025-02-17T16:18:00.544-03:00",
+          "updated_at": "2026-09-09T10:42:17.689-03:00",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "jjpwmj9vf3pb",
+      "name": "Atraso na efetivação de pagamentos do Vendeu, Ta na Conta",
+      "status": "resolved",
+      "created_at": "2026-08-16T08:30:38.850-03:00",
+      "updated_at": "2026-08-16T14:38:25.666-03:00",
+      "monitoring_at": "2026-08-16T11:58:49.387-03:00",
+      "resolved_at": "2026-08-16T14:06:12.000-03:00",
+      "impact": "none",
+      "shortlink": "https://stspg.io/973r5d5t483h",
+      "started_at": "2026-08-16T08:30:38.838-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "5zs3zrtpt3m4",
+          "status": "resolved",
+          "body": "Pagamentos restantes sendo efetivados.\n\nCaso resolvido",
+          "incident_id": "jjpwmj9vf3pb",
+          "created_at": "2026-08-16T14:38:12.694-03:00",
+          "updated_at": "2026-08-16T14:38:25.649-03:00",
+          "display_at": "2026-08-16T14:06:12.000-03:00",
+          "affected_components": [
+            {
+              "code": "7gmj4lj61v1p",
+              "name": "Produtos de Prazo - RRD0",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "rwkx1m0bnq1f",
+              "name": "Produtos de Prazo - RRD1",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "v832d4254jcj",
+          "status": "monitoring",
+          "body": "Os pagamentos estão sendo efetivados.\n\nSeguimos acompanhando o caso junto aos times responsáveis.",
+          "incident_id": "jjpwmj9vf3pb",
+          "created_at": "2026-08-16T11:58:49.387-03:00",
+          "updated_at": "2026-08-16T11:58:49.387-03:00",
+          "display_at": "2026-08-16T11:58:49.387-03:00",
+          "affected_components": [
+            {
+              "code": "7gmj4lj61v1p",
+              "name": "Produtos de Prazo - RRD0",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rwkx1m0bnq1f",
+              "name": "Produtos de Prazo - RRD1",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "9mbl0zg87771",
+          "status": "investigating",
+          "body": "Identificado um atraso na efetivação de transações para o Vendeu, Ta na Conta (D0 e D1)\n\nO caso está em análise pelo Banco do Brasil",
+          "incident_id": "jjpwmj9vf3pb",
+          "created_at": "2026-08-16T08:30:38.955-03:00",
+          "updated_at": "2026-08-16T08:30:38.955-03:00",
+          "display_at": "2026-08-16T08:30:38.955-03:00",
+          "affected_components": [
+            {
+              "code": "7gmj4lj61v1p",
+              "name": "Produtos de Prazo - RRD0",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "rwkx1m0bnq1f",
+              "name": "Produtos de Prazo - RRD1",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7gmj4lj61v1p",
+          "name": "RRD0",
+          "status": "operational",
+          "created_at": "2025-02-17T16:16:34.517-03:00",
+          "updated_at": "2026-09-21T01:09:37.736-03:00",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "t0jb5x4hqnh6",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "rwkx1m0bnq1f",
+          "name": "RRD1",
+          "status": "operational",
+          "created_at": "2025-02-17T16:17:00.461-03:00",
+          "updated_at": "2026-09-21T01:09:37.752-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "t0jb5x4hqnh6",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": "[]"
+    },
+    {
+      "id": "j38k190l5wj9",
+      "name": "Indisponibilidade parcial do emissor Itaú no produto Crédito - Bandeira Visa e Mastercard",
+      "status": "resolved",
+      "created_at": "2026-08-15T13:21:42.000-03:00",
+      "updated_at": "2026-08-15T18:02:42.142-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-15T17:14:31.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/f5q6bnqfs74v",
+      "started_at": "2026-08-15T13:21:42.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "klrp6cfq1sq7",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "j38k190l5wj9",
+          "created_at": "2026-08-15T18:02:31.129-03:00",
+          "updated_at": "2026-08-15T18:02:42.112-03:00",
+          "display_at": "2026-08-15T17:14:31.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "dxtxjn5sfprc",
+          "status": "investigating",
+          "body": "=== Atualização ===\n\nOs times técnicos do parceiro permanecem atuando na investigação da causa raiz do incidente e na implementação das ações necessárias para restabelecimento do serviço.",
+          "incident_id": "j38k190l5wj9",
+          "created_at": "2026-08-15T15:53:05.663-03:00",
+          "updated_at": "2026-08-15T15:53:05.663-03:00",
+          "display_at": "2026-08-15T15:53:05.663-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "rrjj6y9fnnwk",
+          "status": "investigating",
+          "body": "Em análise pelo emissor.",
+          "incident_id": "j38k190l5wj9",
+          "created_at": "2026-08-15T13:42:42.428-03:00",
+          "updated_at": "2026-08-15T13:43:00.971-03:00",
+          "display_at": "2026-08-15T13:21:42.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "7dl0hgfxw5p5",
+      "name": "Elevado volume de transações com timeout nos canais digitais (e-Commerce) e negada no mundo físico para a bandeira Mastercard na modalidade crédito e débito",
+      "status": "resolved",
+      "created_at": "2026-08-15T02:00:41.000-03:00",
+      "updated_at": "2026-08-15T03:35:17.200-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-15T02:39:52.011-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/2ff8rtrqkcl5",
+      "started_at": "2026-08-15T02:00:41.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "2sn2b544tw2f",
+          "status": "resolved",
+          "body": "Ambiente normalizado.",
+          "incident_id": "7dl0hgfxw5p5",
+          "created_at": "2026-08-15T02:39:52.011-03:00",
+          "updated_at": "2026-08-15T02:39:52.011-03:00",
+          "display_at": "2026-08-15T02:39:52.011-03:00",
+          "affected_components": [
+            {
+              "code": "6129pxjwtfvn",
+              "name": "Transacional - e-Commerce - Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "h7mphm0qhy17",
+          "status": "identified",
+          "body": "Identificado aumento no índice de transações negadas e timeout (tempo excedido) para a bandeira Masterdcard nas modalidade crédito e débito. Confirmado incidente no ambiente da Mastercard, que afeta não apenas a Cielo, mas o mercado em geral.",
+          "incident_id": "7dl0hgfxw5p5",
+          "created_at": "2026-08-15T02:00:41.542-03:00",
+          "updated_at": "2026-08-15T03:35:17.196-03:00",
+          "display_at": "2026-08-15T02:00:41.000-03:00",
+          "affected_components": [
+            {
+              "code": "6129pxjwtfvn",
+              "name": "Transacional - e-Commerce - Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "6129pxjwtfvn",
+          "name": "e-Commerce - Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:08:22.492-03:00",
+          "updated_at": "2026-09-09T10:42:17.668-03:00",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "vr3tnx2cqqr9",
+      "name": "Indisponibilidade parcial para as transações do emissor Sodexo / Pluxee no produto voucher para o mundo fisico",
+      "status": "resolved",
+      "created_at": "2026-08-10T20:21:45.668-03:00",
+      "updated_at": "2026-08-11T02:14:50.949-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-11T01:00:27.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/z6dhk1c8p4lr",
+      "started_at": "2026-08-10T20:21:45.657-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "d51vv1wzt3mm",
+          "status": "resolved",
+          "body": "Ambiente normalizado",
+          "incident_id": "vr3tnx2cqqr9",
+          "created_at": "2026-08-11T02:14:27.774-03:00",
+          "updated_at": "2026-08-11T02:14:50.930-03:00",
+          "display_at": "2026-08-11T01:00:27.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "hxt3pg4t9tyl",
+          "status": "investigating",
+          "body": "Em análise pelo emissor.",
+          "incident_id": "vr3tnx2cqqr9",
+          "created_at": "2026-08-10T20:21:45.758-03:00",
+          "updated_at": "2026-08-10T20:21:45.758-03:00",
+          "display_at": "2026-08-10T20:21:45.758-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zn71xcn0fgnl",
+              "name": "Transacional - Bandeiras / Emissores / Parceiros",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zn71xcn0fgnl",
+          "name": "Bandeiras / Emissores / Parceiros",
+          "status": "operational",
+          "created_at": "2025-02-17T16:07:59.079-03:00",
+          "updated_at": "2026-09-15T17:34:17.382-03:00",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "cgm2tcydyqh6",
+      "name": "Indisponibilidade parcial nas transações para bandeira Visa através do Autorizador Físico",
+      "status": "resolved",
+      "created_at": "2026-08-10T23:00:07.000-03:00",
+      "updated_at": "2026-08-10T23:43:54.520-03:00",
+      "monitoring_at": null,
+      "resolved_at": "2026-08-10T23:08:31.000-03:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/y90wdr99pt1d",
+      "started_at": "2026-08-10T23:00:07.000-03:00",
+      "page_id": "mrnkr4vjrl2d",
+      "incident_updates": [
+        {
+          "id": "9bn6sht945hj",
+          "status": "resolved",
+          "body": "Ambiente normalizado após ações da bandeira.",
+          "incident_id": "cgm2tcydyqh6",
+          "created_at": "2026-08-10T23:43:31.946-03:00",
+          "updated_at": "2026-08-10T23:43:54.504-03:00",
+          "display_at": "2026-08-10T23:08:31.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "lb6hnhryh5pw",
+          "status": "identified",
+          "body": "Identificamos a indisponibilidade parcial nas transações através da bandeira Visa, através da modalidade Débito e Crédito.",
+          "incident_id": "cgm2tcydyqh6",
+          "created_at": "2026-08-10T23:42:07.258-03:00",
+          "updated_at": "2026-08-10T23:43:46.961-03:00",
+          "display_at": "2026-08-10T23:00:07.000-03:00",
+          "affected_components": [
+            {
+              "code": "gxk94rbthwvb",
+              "name": "Transacional - Autorizador Físico",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "gxk94rbthwvb",
+          "name": "Autorizador Físico",
+          "status": "operational",
+          "created_at": "2025-02-17T16:06:37.016-03:00",
+          "updated_at": "2026-09-20T14:40:12.083-03:00",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-01-01",
+          "group_id": "3kpqfvh4jxlx",
+          "page_id": "mrnkr4vjrl2d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ]
+}
