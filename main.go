@@ -52,14 +52,13 @@ func main() {
 		log.Fatal(err)
 	}
 
-	// fmt.Println(string(body))
 	var r StatusResponse
 	err = json.Unmarshal(body, &r)
 	if err != nil {
 		log.Fatal(err)
 	}
 	for _, incident := range r.Incidents {
-		if incident.Impact == "critical" || incident.Impact == "major" {
+		if CheckIncident(incident) {
 			fmt.Printf("name:\t%s\nurl:\t%s\ntimezone:\t%s\nincident_id:\t%s\nnincident_name:\t%s\nincident_created_at:\t%s\nincident_resolved_at:\t%s\nstatus:\t%s\nimpact:\t%s\nshortlink:\t%s\ncomponent_id:\t%s\ncomponent_name:\t%s\n\n\n", r.Page.Name, r.Page.Url, r.Page.Timezone, incident.Id, incident.Name, incident.CreatedAt, incident.ResolvedAt, incident.IncidentUpdates[0].Status, incident.Impact, incident.Shortlink, incident.IncidentUpdates[0].AffectedComponents[0].Code, incident.IncidentUpdates[0].AffectedComponents[0].Name)
 		}
 	}
