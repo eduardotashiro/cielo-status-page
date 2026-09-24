@@ -5,12 +5,14 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"time"
 
 	"github.com/eduardotashiro/cielo-status-page/internal/domain"
 )
 
-func Pegaincidentes() (domain.StatusResponse, error) {
-	resp, err := http.Get("https://status.cielo.com.br/api/v2/incidents.json")
+func GetIncidents() (domain.StatusResponse, error) {
+	client := http.Client{Timeout: 5 * time.Second}
+	resp, err := client.Get("https://status.cielo.com.br/api/v2/incidents.json")
 	if err != nil {
 		return domain.StatusResponse{}, err
 	}
