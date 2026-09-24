@@ -1,70 +1,27 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
-	"io"
 	"log"
-	"net/http"
+
+	"github.com/eduardotashiro/cielo-status-page/internal/client"
 )
 
-type StatusResponse struct {
-	Page      Page       `json:"page"`
-	Incidents []Incident `json:"incidents"`
-}
-
-type Page struct {
-	Name      string     `json:"name"`
-	Url       string     `json:"url"`
-	Timezone  string     `json:"time_zone"`
-	Incidents []Incident `json:"incidents"`
-}
-
-type Incident struct {
-	Id              string           `json:"id"`
-	Name            string           `json:"name"`
-	CreatedAt       string           `json:"created_at"`
-	ResolvedAt      string           `json:"resolved_at"`
-	Impact          string           `json:"impact"`
-	Shortlink       string           `json:"shortlink"`
-	IncidentUpdates []IncidentUpdate `json:"incident_updates"`
-}
-
-type IncidentUpdate struct {
-	Id                 string              `json:"incident_id"`
-	Status             string              `json:"status"`
-	AffectedComponents []AffectedComponent `json:"affected_components"`
-}
-
-type AffectedComponent struct {
-	Code string `json:"code"`
-	Name string `json:"name"`
-}
-
 func main() {
-	resp, err := http.Get("https://status.cielo.com.br/api/v2/incidents.json")
+	r, err := client.GetIncidents()
 	if err != nil {
-		log.Fatal(err)
-	}
-	defer resp.Body.Close()
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		log.Fatal(err)
+		log.Fatalf("Erro ao obter incidentes: %v", err)
 	}
 
-	var r StatusResponse
-	err = json.Unmarshal(body, &r)
-	if err != nil {
-		log.Fatal(err)
-	}
 	for _, incident := range r.Incidents {
-		if CheckIncident(incident) {
+		if incident.IsRelevant() {
 			fmt.Printf("name:\t%s\nurl:\t%s\ntimezone:\t%s\nincident_id:\t%s\nnincident_name:\t%s\nincident_created_at:\t%s\nincident_resolved_at:\t%s\nstatus:\t%s\nimpact:\t%s\nshortlink:\t%s\ncomponent_id:\t%s\ncomponent_name:\t%s\n\n\n", r.Page.Name, r.Page.Url, r.Page.Timezone, incident.Id, incident.Name, incident.CreatedAt, incident.ResolvedAt, incident.IncidentUpdates[0].Status, incident.Impact, incident.Shortlink, incident.IncidentUpdates[0].AffectedComponents[0].Code, incident.IncidentUpdates[0].AffectedComponents[0].Name)
 		}
 	}
 }
 
-// http.Client{Timeout: ...}
+// incident := r.Incidents[0]
+
 /*
 "id": "n0n3lzdwjsdj",
 "name": "Pix",

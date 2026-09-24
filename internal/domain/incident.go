@@ -51,12 +51,14 @@ func (i *Incident) IsRelevant() bool {
 	if i.Impact != "critical" && i.Impact != "major" {
 		return false
 	}
-	if len(i.IncidentUpdates) == 0 || len(i.IncidentUpdates[0].AffectedComponents) == 0 {
+	if len(i.IncidentUpdates) == 0 {
 		return false
 	}
-	for _, c := range i.IncidentUpdates[0].AffectedComponents {
-		if slices.Contains(componentesMonitorados, c.Code) {
-			return true
+	for _, update := range i.IncidentUpdates {
+		for _, c := range update.AffectedComponents {
+			if slices.Contains(componentesMonitorados, c.Code) {
+				return true
+			}
 		}
 	}
 	return false
